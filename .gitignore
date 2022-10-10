@@ -1,2 +1,8 @@
 test.py
 downloader.py
+__pycache__
+download
+build
+dist
+ydm.spec
+tempCodeRunnerFile.py

@@ -102,7 +102,7 @@ class Worker(QObject):
         }
 
         self.ydl_opts = self.ydl_opts | hook_config
-        print(self.ydl_opts)
+        #  print(self.ydl_opts)
         with YoutubeDL(self.ydl_opts) as ydl:
             ydl.download(self.url)
         self.finished.emit()
