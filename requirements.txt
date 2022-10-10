@@ -1,0 +1,4 @@
+PyQt6==6.4.0
+pytube==12.1.0
+static_ffmpeg==2.3
+yt_dlp==2022.10.4
